@@ -1,10 +1,11 @@
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   const name = 'Wajiha'
   return (
-    <div className="App">
-      <p>Hello from {name}</p>
+    <div className="container">
+      <Header title='Hello Wajiha' />
     </div>
   );
 }
